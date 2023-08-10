@@ -539,11 +539,12 @@ button{
   .conteiner_downloads{
     flex-direction: column;
     margin: auto;
+    height: 100%;
   }
   .download {
     background-image: linear-gradient(135deg, #667eea6e 0%, #764ba263 100%), url(img/canais.jpg)!important;
     transition: 1s;
-   
+    height: 100vh;
 }
   
 
