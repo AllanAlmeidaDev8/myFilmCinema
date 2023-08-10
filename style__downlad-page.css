@@ -1,0 +1,64 @@
+@import "style-menu.css";
+:root{/* colors */
+    --bgColor:           black;
+    --textColor:         rgb(255, 255, 255);
+    --textTitleColor:    rgb(255, 57, 22);
+    --BtnColor:          rgb(250, 94, 21);
+    --bgMenu:            rgba(252, 252, 252, 0.712) ;}
+html, body{
+    font-family: "Roboto",'Courier New', Courier, monospace;
+    color: var(--textColor);
+}
+.img-divice{
+    width: 170px;
+}
+
+.download{
+ font-family: var(--font03);
+  background-image:linear-gradient(135deg, #667eea6e 0%, #764ba263 100%), url(img/canais02.png);
+  background-color: #141414;
+  background-attachment: fixed;
+  background-size: cover;
+
+  height: 100vh;
+  background-position: center;
+}
+.conteiner_downloads{
+    background-image: linear-gradient( 111.4deg, #0C0A17, rgb(12, 9, 82) 93.2% );
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    
+}
+.conteiner_downloads h2{
+    font-family: var(--font03);
+    
+    font-size: 2em;
+    font-weight: 500;
+    padding: 30px 0px;
+}
+.conteiner_downloads p{
+    width: 300px;
+    padding: 20px 0px;
+    text-align: center;
+}
+.card_download{
+    display: flex;
+    flex-direction: column;
+    
+}
+.conteiner_downloads a{
+    color: var(--textColor);
+    text-decoration: none;
+    padding: 30px;
+    
+}
+.conteiner_intro{
+    display: flex;
+}
+.img-cine{
+    margin: 30px;
+    box-shadow: 3px 3px 3px black;
+}
