@@ -25,6 +25,9 @@
     --Font03: 'Roboto', sans-serif;
 
 }
+html{
+  scroll-behavior: smooth;
+}
 .img-smartfone {
   width: 224px;
 }
@@ -398,6 +401,7 @@ button{
   font-family: var(--Font03);
 }
 
+
   @media (max-width: 760px) {
   .hamburger-menu{
     display: block;
@@ -415,6 +419,7 @@ button{
   .menu__item {
     color: #ffffffe0;
   }
+  
 
     
   header{
@@ -539,7 +544,7 @@ button{
   .conteiner_downloads{
     flex-direction: column;
     margin: auto;
-    height: 100%;
+    height: 100vh;
   }
   .download {
     background-image: linear-gradient(135deg, #667eea6e 0%, #764ba263 100%), url(img/canais.jpg)!important;
