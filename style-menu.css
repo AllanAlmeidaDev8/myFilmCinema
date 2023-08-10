@@ -544,6 +544,7 @@ button{
   .download {
     background-image: linear-gradient(135deg, #667eea6e 0%, #764ba263 100%), url(img/canais.jpg)!important;
     transition: 1s;
+    background-size: cover;
     height: 100vh;
 }
   
