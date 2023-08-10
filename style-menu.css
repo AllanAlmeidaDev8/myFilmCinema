@@ -276,7 +276,7 @@ span{
   padding: 30px;
   border-radius:10px;
   color:var(--textColor);
-  height:300px;
+  height:360px;
   font-family: var(--Font03);
   box-shadow: 8px 3px 7px rgba(0, 0, 0, 0.61);
 
@@ -373,15 +373,23 @@ span{
   font-family: var(--Font03);
   line-height: 2;
 }
+.button_plan {
+  background: var(--BtnColor);
+  text-decoration: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  color: var(--textColor);
+}
 button{
+  background:var(--BtnColor)!important;
+  color:var(--textColor)!important;
+  font-family: var(--Font03)!important;
   width:200px;
   padding:10px;
-  background:var(--BtnColor);
   border:none;
   border-radius:10px;
   margin-top:10px;
-  cursor:pointer;
-  color:var(--textColor);
+  cursor:pointer; 
   font-size:1.5;
   margin: 10px;
 }
